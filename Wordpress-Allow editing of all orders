@@ -1,0 +1,4 @@
+add_filter ( 'wc_order_is_editable', 'majemedia_add_order_statuses_to_editable' );
+function majemedia_add_order_statuses_to_editable () {
+	return TRUE;
+}
