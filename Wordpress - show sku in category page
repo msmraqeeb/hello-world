@@ -1,0 +1,9 @@
+function skyverge_shop_display_skus() {
+
+	global $product;
+	
+	if ( $product->get_sku() ) {
+		echo '<font color=red><b><div class="product-meta">Product Code: </b></font>' . $product->get_sku(). '</div>';
+	}
+}
+add_action( 'woocommerce_after_shop_loop_item', 'skyverge_shop_display_skus', 9 );
