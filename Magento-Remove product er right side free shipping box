@@ -1,0 +1,4 @@
+// Go to: skin/frontend/em0131/default/css/styles.css
+// Find .product-view-detail .em-wrapper-ads-09
+// Replace the line with this:
+.product-view-detail .em-wrapper-ads-09{margin-bottom:2rem;display:none;}
