@@ -1,0 +1,5 @@
+function my_woocommerce_template_loop_add_to_cart() {
+    echo '<form action="' . get_permalink() . '" method="get" target="_blank">
+            <button type="submit" class="myButton">View Product</button>
+          </form>';
+}
