@@ -1,0 +1,4 @@
+// Remove "Get help from this page" link from Admin Menu
+// Go to: public_html/media/css/d609e2b9fe9b248c1dd759e81a5176ad.css
+// Search for: #page-help-link {
+Write: display:none;
